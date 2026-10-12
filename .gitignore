@@ -1,0 +1,9 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+
+# File gambar hasil upload tidak ikut di-commit
+uploads/*
+!uploads/.gitkeep
